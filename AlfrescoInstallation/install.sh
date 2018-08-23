@@ -33,36 +33,66 @@ echo $SCRIPT
 
 SCRIPTPATH=$(dirname "$SCRIPT")
 
+#Script path for execution
 echo $SCRIPTPATH
 
 
+
+# Unzipping the Tomcat 7
 echo "unzipping the Tomcat 7"
 #tar -xzvf tomcat7.tar.gz
 
+######### Unzipping the Tomcat ############
 tar -xzvf $SCRIPTPATH/tomcat7.tar.gz
 echo "Finished Unzipping the Tomcat 7"
 
 
+######### Unzipping the Alfresco ##########
 echo "unzipping the Alfresco"
 unzip $SCRIPTPATH/acs-5.2.1.zip
 echo "finish unzipping the Alfresco Content Services"
 
+
+######### Moving alfresco for Test Directory ###############
 echo "moving alfresco"
 sudo mv alfresco-content-services-distribution-5.2.1/ /opt/scripttest/alfresco5
 
+######### Moving Tomcat for Test Alfresco Home Directory ################
 echo "moving tomcat7"
 sudo mv apache-tomcat-7.0.82/ /opt/scripttest/alfresco5/tomcat
 
-sudo cd /opt/scripttest/alfresco5/web-server/
 
+######### cd if Necessary to change the script ############
+# sudo cd /opt/scripttest/alfresco5/web-server/
+
+######## coping the necessary changes for alfresco to get up and running ###################
 sudo cp -R /opt/scripttest/alfresco5/web-server/conf/* /opt/scripttest/alfresco5/tomcat/conf
 sudo cp -R /opt/scripttest/alfresco5/web-server/lib/* /opt/scripttest/alfresco5/tomcat/lib
 sudo mkdir /opt/scripttest/alfresco5/tomcat/shared
 
+
+######## Changing the Ownership of the directory for any further changes ##################
 sudo chown -R mhassen:mhassen /opt/scripttest/
 
+
+######## Changing the shared directory files for any necessary  #######################
 sudo cp -R /opt/scripttest/alfresco5/web-server/shared/* /opt/scripttest/alfresco5/tomcat/shared
 sudo cp -R /opt/scripttest/alfresco5/web-server/webapps/* /opt/scripttest/alfresco5/tomcat/webapps/
+
+
+################## Modifying the alfresco global properties ##########################
+# copying an example of the alfresco global property file in the search
+sudo mv /opt/scripttest/alfresco5/tomcat/shared/classes/alfresco-global.properties.sample /opt/scripttest/alfresco5/tomcat/shared/classes/alfresco-global.properties 
+
+
+
+
+
+
+
+
+
+
 
 
 
