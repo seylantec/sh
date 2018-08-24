@@ -1,0 +1,31 @@
+2018-08-24 06:57:37,152 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-2] Registered template processor freemarker for extension ftl
+2018-08-24 06:57:37,155 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-2] Registered script processor javascript for extension js
+2018-08-24 06:57:37,157 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-2] Registered template processor freemarker for extension ftl
+2018-08-24 06:57:37,234 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-2] Registered script processor javascript for extension js
+2018-08-24 06:57:44,190 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-2] Registered 392 Web Scripts (+0 failed), 410 URLs
+2018-08-24 06:57:44,191 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-2] Registered 8 Package Description Documents (+0 failed) 
+2018-08-24 06:57:44,191 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-2] Registered 0 Schema Description Documents (+0 failed) 
+2018-08-24 06:57:44,600 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] [localhost-startStop-2] Initialised Surf Container Web Script Container (in 7295.878ms)
+2018-08-24 06:57:44,607 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-2] Registered template processor freemarker for extension ftl
+2018-08-24 06:57:44,621 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-2] Registered script processor javascript for extension js
+2018-08-24 06:58:16,497 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2018-08-24 06:58:16,501 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2018-08-24 06:58:16,502 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2018-08-24 06:58:16,504 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2018-08-24 06:58:20,973 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 392 Web Scripts (+0 failed), 410 URLs
+2018-08-24 06:58:20,974 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 8 Package Description Documents (+0 failed) 
+2018-08-24 06:58:20,974 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 0 Schema Description Documents (+0 failed) 
+2018-08-24 06:58:21,245 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] [localhost-startStop-1] Initialised Surf Container Web Script Container (in 4683.8975ms)
+2018-08-24 06:58:21,270 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2018-08-24 06:58:21,271 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2018-08-24 07:15:13,117 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2018-08-24 07:15:13,141 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2018-08-24 07:15:13,142 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2018-08-24 07:15:13,143 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2018-08-24 07:15:17,444 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 392 Web Scripts (+0 failed), 410 URLs
+2018-08-24 07:15:17,444 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 8 Package Description Documents (+0 failed) 
+2018-08-24 07:15:17,445 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 0 Schema Description Documents (+0 failed) 
+2018-08-24 07:15:17,713 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] [localhost-startStop-1] Initialised Surf Container Web Script Container (in 4518.1616ms)
+2018-08-24 07:15:17,730 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2018-08-24 07:15:17,731 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2018-08-24 07:16:10,251 INFO  [org.alfresco.web.site.EditionInterceptor] [http-bio-8080-exec-4] Unable to retrieve License information from Alfresco: 404

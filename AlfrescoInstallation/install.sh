@@ -54,6 +54,9 @@ echo "finish unzipping the Alfresco Content Services"
 
 chmod +x $SCRIPTPATH/db_setup.sql
 
+alfrescohome=/opt/scripttest/alfresco5
+
+
 sh ll
 
 ######### Moving alfresco for Test Directory ###############
@@ -198,10 +201,20 @@ sudo chown -R mhassen:mhassen /opt/scripttest/alfresco5/
 # Executing the Database 
 
 echo "Database being creatd"
-sh $SCRIPTPATH/db_setup.sql 
+mysql -u root  $SCRIPTPATH/db_setup.sql 
 sleep 5
 
 # then only we can start the program. 
+# Modifying few properties in the server as required. 
+awk '{gsub("shared.loader=", "shared.loader=${catalina.base}/shared/classes,${catalina.base}/shared/lib/*.jar")}1' ${alfrescohome}/tomcat/conf/catalina.properties > ${alfrescohome}/tomcat/conf/catalina.properties.temp                                                                                                                                                                                                                                    
+sleep 5                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                 
+mv  ${alfrescohome}/tomcat/conf/catalina.properties.temp  ${alfrescohome}/tomcat/conf/catalina.properties
+
+# db connector properties for 
+
+cp $SCRIPTPATH/mysql-connector-java-5.1.32.jar ${alfrescohome}/tomcat/lib
+
 
 echo "Alfresco Starting"
 
