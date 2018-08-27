@@ -3,7 +3,7 @@ SCRIPT=$(readlink -f "$0")
                                                                                                                                                                                                                                  
 echo $SCRIPT                                                                                                                                                                                                                     
                                                                                                                                                                                                                                  
-SCRIPTPATH=$(dirname "$SCRIPT")                                                                                                                                                                                                  
+WORKPATH=$(dirname "$SCRIPT")                                                                                                                                                                                                  
                                                                                                                                                                                                                                  
 #Script path for execution                                                                                                                                                                                                       
 echo $SCRIPTPATH
@@ -21,11 +21,12 @@ sleep 5
 
 #mysql -h localhost -u alfresco -p alfresco  alfresco  < db_remove.sql
 
-mysql --host=localhost --user=alfresco --password=alfresco -e "alfresco db_remove.sql"	
-
+echo "Removing the database"
+sleep 5
+mysql -u root -p < $WORKPATH/db_remove.sql 	
+echo "Removed database "
 
                                                                                                                                                                                                                                                                                                                                                                     
                                                                                                                                                                                                                                  
                                                                                                                                                                                                             
-                                                                                                                                                                                                                                                                                                                                                                                      
-
+                                                                                                                                                                                                                                                                                                                                                                                

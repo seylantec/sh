@@ -200,8 +200,9 @@ sudo chown -R mhassen:mhassen /opt/scripttest/alfresco5/
 
 # Executing the Database 
 
+sleep 5 
 echo "Database being creatd"
-mysql -u root  $SCRIPTPATH/db_setup.sql 
+mysql -u root -p  < $SCRIPTPATH/db_setup.sql 
 sleep 5
 
 # then only we can start the program. 
