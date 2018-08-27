@@ -11,3 +11,16 @@
 2018-08-27 02:46:48,611 INFO  [org.alfresco.web.site.EditionInterceptor] [http-bio-8080-exec-1] Successfully retrieved license information from Alfresco.
 2018-08-27 02:47:53,549 INFO  [org.alfresco.web.scripts.ImapServerStatus] [http-bio-8080-exec-7] Successfully retrieved IMAP server status from Alfresco: disabled
 2018-08-27 02:47:54,153 INFO  [org.alfresco.web.scripts.SyncModeConfig] [http-bio-8080-exec-7] Successfully retrieved Sync Mode configuration from Alfresco: OFF
+2018-08-27 03:59:48,366 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2018-08-27 03:59:48,386 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2018-08-27 03:59:48,387 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2018-08-27 03:59:48,388 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2018-08-27 03:59:52,414 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 392 Web Scripts (+0 failed), 410 URLs
+2018-08-27 03:59:52,415 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 8 Package Description Documents (+0 failed) 
+2018-08-27 03:59:52,415 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 0 Schema Description Documents (+0 failed) 
+2018-08-27 03:59:52,661 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] [localhost-startStop-1] Initialised Surf Container Web Script Container (in 4194.6963ms)
+2018-08-27 03:59:52,663 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2018-08-27 03:59:52,663 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2018-08-27 04:00:24,383 INFO  [org.alfresco.web.site.EditionInterceptor] [http-bio-8080-exec-1] Successfully retrieved license information from Alfresco.
+2018-08-27 04:01:57,946 INFO  [org.alfresco.web.scripts.ImapServerStatus] [http-bio-8080-exec-5] Successfully retrieved IMAP server status from Alfresco: disabled
+2018-08-27 04:01:58,476 INFO  [org.alfresco.web.scripts.SyncModeConfig] [http-bio-8080-exec-5] Successfully retrieved Sync Mode configuration from Alfresco: OFF

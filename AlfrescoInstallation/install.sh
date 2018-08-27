@@ -146,12 +146,12 @@ sudo echo "img.root=/opt/ImageMagick" >> ${globaldir}/alfresco-global.properties
 
 # Windows specific enviromental variables are not set here.
 
-# solr 4 configuration 
+# solr 4 configuration Solr is running in Single Tomcat Installation
 
 sudo echo "index.subsystem.name=solr4" >> ${globaldir}/alfresco-global.properties
 sudo echo "solr.host=localhost" >> ${globaldir}/alfresco-global.properties
 sudo echo "solr.port=8080" >> ${globaldir}/alfresco-global.properties
-sudo echo "solr.port.ssl=8453" >> ${globaldir}/alfresco-global.properties
+sudo echo "solr.port.ssl=8443" >> ${globaldir}/alfresco-global.properties
 sudo echo "solr.secureComms=https" >> ${globaldir}/alfresco-global.properties
 
 
